@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Datasets and large binary artifacts (stored in Releases or Drive)
+dataset/
+data/
+*.pth
+*.pt
+*.h5
+*.onnx
+*.zip
+*.tar.gz
+artifacts/*.pth
+artifacts/*.pt
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE configs
+.vscode/
+.idea/
